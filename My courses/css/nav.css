@@ -1,0 +1,161 @@
+
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+}
+.dws-menu > ul li{
+ position: relative;
+
+}
+/*.dws-menu > ul li:first-child{
+ border-left: 1px solid #E0E0E0;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #E0E0E0;
+*/
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: -2px;
+ font-size: 18px;
+}
+
+
+.dws-menu > ul li a{
+ display: block;
+ 
+
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #454547;
+    opacity: 0.6;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+ 
+
+ color: #4c4550;
+opacity: 1;
+
+ transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+/*
+.dws-menu li > ul li
+
+
+*/
+.dws-menu li > ul li a{
+ padding: 10px;
+padding-left: 60px;
+ text-transform: none;
+
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+    padding-left: 20px;
+}
+.dws-menu li:hover > ul{
+ display: none;
+}
+/*медия*/
+
+.dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu{
+ display:none;
+}
+
+
+.dws-menu toggleMenu{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+ background: #F8F8F8;
+
+ display: block;
+ padding: 15px 40px;
+ text-transform: uppercase;
+ font-size: 14px;
+ cursor: pointer;
+ position: relative;
+}
+
+.dws-menu label.toggleMenu .fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+
+ .dws-menu{
+  overflow: hidden;
+    width: 230px;
+
+ }
+ .dws-menu ul{
+
+  max-height: 0;
+  transition: max-height 0.3s;
+ }
+ .dws-menu li>ul li ul{
+  position: absolute;
+  right: auto;
+  top: auto;
+ }
+
+ input.toggleMenu:checked + label.toggleMenu{
+
+  color: #F8F8F8;
+ }
+input.toggleMenu ~ ul,
+ input.toggleSubmenu:checked ~ ul{
+  display: block;
+  position: relative;
+  max-height: 5000px;
+  transition: max-height 2s ease-in;
+ }
+ input.toggleMenu:checked ~ ul,
+ input.toggleSubmenu:checked ~ ul{
+  display: block;
+  position: relative;
+  max-height: 5000px;
+  transition: max-height 2s ease-in;
+ }
+ .dws-menu label.toggleSubmenu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+ }
+ input.toggleSubmenu:checked ~ a{
+
+  color: black;
+    opacity: 1;
+ }
+ 
+
+
+
+
+.header-post {
+    width: 209px;
+}
