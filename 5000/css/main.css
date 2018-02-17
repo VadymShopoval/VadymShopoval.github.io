@@ -1,0 +1,73 @@
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+body {
+  background: #ffffff url(../img/bg.png) center repeat;
+  background-size: cover;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  width: 7rem;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-top: 2rem;
+}
+.header {
+  text-align: center;
+  background-color: #ffffff;
+  height: 11rem;
+  font-size: 19px;
+  margin-top: 3rem;
+  vertical-align: center;
+}
+.header h1 {
+  color: #1f9113;
+}
+.header h1 strong {
+  color: #c82f1b;
+}
+.video-bg {
+  background-color: #f4d5b4;
+  background-size: cover;
+  height: 50rem;
+}
+.bt-bg {
+  height: 30rem;
+  width: 110rem;
+  background-color: #fef9f8;
+}
+.button {
+  margin-top: 5rem;
+  padding: 2rem 1rem;
+  border: none;
+  font-size: 2rem;
+}
+.upsel .container {
+  background-color: #fff;
+}
+.text-img {
+  margin-top: 5rem;
+}
+.text-upsel {
+  margin-bottom: 10rem;
+  text-align: left;
+}
+.text-upsel span {
+  color: red;
+}
+.text-upsel .gern {
+  color: #008d42;
+}
+.cen-red {
+  text-align: center;
+  color: red;
+}
+.upsell-img {
+  background-color: #fff;
+}
